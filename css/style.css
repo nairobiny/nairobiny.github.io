@@ -50,3 +50,10 @@ body {
     max-width: 50%; /* Limit image width to 50% of the container */
     border: 6px solid #808080; /* Grey frame around the images */
 }
+
+/* Horizontal line styles */
+.text-content hr {
+    border: 1px solid #808080; /* Grey horizontal line */
+    width: 90%; /* Cover 90% of the container width */
+    margin: 24px auto; /* Add margin top and bottom to center the line */
+}
