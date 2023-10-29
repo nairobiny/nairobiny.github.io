@@ -22,6 +22,7 @@ body {
 
 /* Text content styles */
 .text-content {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: white; /* White text color */
     font-size: 20px; /* Adjust the text size as needed */
     padding: 20px;
