@@ -21,7 +21,7 @@ body, h1, p {
     position: absolute;
     top: 25%; /* Adjust this to control vertical positioning */
     left: 0;
-    width: 100%;
+    width: 50%;
     background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
 }
 
