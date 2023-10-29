@@ -22,10 +22,14 @@ body {
 
 /* Text content styles */
 .text-content {
-    text-align: center;
     color: white; /* White text color */
     font-size: 18px; /* Adjust the text size as needed */
     padding: 20px;
+}
+
+/* Larger heading text */
+.text-content h1 {
+    font-size: 24px; /* Adjust the heading size as needed */
 }
 
 /* Add a 6pt gap after each paragraph */
@@ -35,6 +39,7 @@ body {
 
 /* Add a larger gap before and after each paragraph containing an image */
 .text-content p {
+    text-align: left;
     margin: 24px 0; /* 24px top and bottom margin for image-containing paragraphs */
 }
 
