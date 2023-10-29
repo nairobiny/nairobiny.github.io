@@ -11,10 +11,10 @@ body, h1, p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("crow_bg.jpg");
+    background-image: url('crow_bg.jpg');
     background-size: cover;
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    background-attachment: fixed; /* Keep the background image fixed even when scrolling */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     z-index: -1;
 }
 
