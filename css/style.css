@@ -24,12 +24,18 @@ body {
 .text-content {
     text-align: center;
     color: white; /* White text color */
+    font-size: 18px; /* Adjust the text size as needed */
     padding: 20px;
 }
 
 /* Add a 6pt gap after each paragraph */
 .text-content p {
     margin-bottom: 6pt;
+}
+
+/* Add a larger gap before and after each paragraph containing an image */
+.text-content p {
+    margin: 24px 0; /* 24px top and bottom margin for image-containing paragraphs */
 }
 
 /* Image styles within the text content */
