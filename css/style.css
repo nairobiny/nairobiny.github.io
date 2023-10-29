@@ -58,3 +58,19 @@ body {
     margin: 24px 0; /* Add margin to the top and bottom for spacing */
 }
 
+/* Animation for color transition */
+.color-transition {
+    background: linear-gradient(90deg, white, gray);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorTransition 5s infinite alternate;
+}
+
+@keyframes colorTransition {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
