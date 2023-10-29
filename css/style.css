@@ -11,8 +11,10 @@ body, h1, p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("img/crow_bg.jpg");
-    background-size: 100% 100%;
+    background-image: url("crow_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Keep the background image fixed even when scrolling */
     z-index: -1;
 }
 
@@ -23,6 +25,8 @@ body, h1, p {
     left: 50%;
     width: 50%;
     transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+    max-height: 80%;
+    overflow: auto;
     background-color: rgba(0, 0, 0, 0.9); /* Black background with 50% opacity */
 }
 
