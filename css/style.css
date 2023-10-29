@@ -11,7 +11,7 @@ body, h1, p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('img/crow_bg.jpg');
+    background-image: url("img/crow_bg.jpg");
     background-size: cover;
     z-index: -1;
 }
@@ -22,7 +22,8 @@ body, h1, p {
     top: 25%; /* Adjust this to control vertical positioning */
     left: 0;
     width: 50%;
-    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+    background-color: rgba(0, 0, 0, 0.9); /* Black background with 50% opacity */
 }
 
 /* Text content styles */
@@ -30,6 +31,11 @@ body, h1, p {
     text-align: center;
     color: white; /* White text color */
     padding: 20px;
+}
+
+/* Add a 6pt gap after each paragraph */
+.text-content p {
+    margin-bottom: 6pt;
 }
 
 /* Image styles within the text content */
