@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <title>The Auditor of Shadows</title>
     <style>
-        body {
+.background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-image: url('background-image.jpg');
+            opacity: 0.6; /* Adjust the opacity value as needed */
+        }
+        
+        .text-content {
+            body {
             font-family: Arial, sans-serif;
             background-color: #000;
             color: #fff;
@@ -32,23 +44,16 @@
         img {
     max-width: 100%;
     height: auto;
-
-    #background-image {
-    /* CSS styles for the background image */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Set the width to the viewport width */
-    height: 100%; /* Set the height to the viewport height */
-    z-index: -1; /* Place the background image behind other content */
-    opacity: 0.6; /* Adjust the opacity value as needed */
 }
         
 }
+        }
+        
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="background"></div>
+    <div class="text-content">
         <h1>The Auditor of Shadows</h1>
         <p>
     In a forgotten hamlet, nestled deep within the shadowed abyss of looming mountains, there is a dread tale, hushed in the whispered tones of those cursed to remember: an unspeakable legend, shrouded in darkness, concerning the Auditor of Shadows.
