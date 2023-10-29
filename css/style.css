@@ -1,0 +1,40 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background image styles */
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    z-index: -1;
+}
+
+/* Black container styles */
+.container {
+    position: absolute;
+    top: 25%; /* Adjust this to control vertical positioning */
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+}
+
+/* Text content styles */
+.text-content {
+    text-align: center;
+    color: white; /* White text color */
+    padding: 20px;
+}
+
+/* Image styles within the text content */
+.text-content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%; /* Limit image width to 90% of the container */
+}
