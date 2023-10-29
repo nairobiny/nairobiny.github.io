@@ -4,6 +4,10 @@ body, h1, p {
     padding: 0;
 }
 
+body {
+    background-color: #808080; /* Use a shade of grey you prefer */
+}
+
 /* Black container styles */
 .container {
     position: absolute;
