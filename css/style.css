@@ -36,5 +36,6 @@ body {
 .text-content img {
     display: block;
     margin: 0 auto;
-    max-width: 90%; /* Limit image width to 90% of the container */
+    max-width: 50%; /* Limit image width to 50% of the container */
+    border: 6px solid #808080; /* Grey frame around the images */
 }
